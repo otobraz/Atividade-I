@@ -1,0 +1,173 @@
+header {
+ text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-family: Courier;
+  color: #900000;
+}
+
+#formulario {
+	margin-left: 40%;
+}
+
+#formularioContato{
+  border: 1px solid #CFE0FF;
+	background-color: #CFE0FF;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 40%;
+  margin-right: 38.6%;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=date], input[type=password]{
+	width: 300px;
+}
+
+.contato{
+  background-color:   rgb(237,242,246);
+  border: 1px solid #0090FF;
+}
+
+select{
+  width: 306px;
+}
+
+.submit{
+  margin-left: 10%;
+}
+
+footer {
+  font-size: 11pt;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.voltar{
+  text-decoration: none;
+  color: #AA0000;
+  font-family: Courier;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 15%;
+  font-size: 15pt;
+  padding: 0px 10px;
+}
+
+a:hover{
+  color: white;
+  background-color: #991010;
+  border-radius: 2px 2px 2px 2px;
+}
+
+ul#menu {
+  text-decoration: none;
+  color: #AA0000;
+  font-family: Courier;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 13%;
+  font-size: 15pt;
+}
+
+ul#menu li {
+    text-decoration: none;
+    color: #AA0000;
+    font-family: Courier;
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 13pt;
+}
+
+ul#menu li a {
+    margin-top: 3px;
+    padding: 0px 5px;
+    text-decoration: none;
+    text-align: left;
+    color: #AA0000;
+    border-radius: 2px 2px 0 0;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: #991010;
+}
+
+table{
+    border: 3px solid black;
+    width: 60%;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+table.tabela{
+  border-collapse: collapse;
+  text-indent: 8px;
+  width: 30%;
+  font-family: fantasy;
+}
+
+th{
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 12pt;
+  text-align: left;
+  color: #700000;
+}
+
+th.disciplina{
+  font-size: 13pt;
+  color: #700000;
+  text-align: center;
+}
+
+.tabelaHeader{
+  background-color: #C0BA00;
+  color: white;
+  font-weight: 900;
+    font-size: 11pt;
+}
+
+.tabelaLinha0{
+  background-color: #DDDDDD;
+  font-size: 10pt;
+}
+
+.tabelaLinha1{
+  background-color: #EEEEEE;
+  font-size: 10pt;
+}
+
+.tabelaHighlightedLine{
+  background-color: #0085FF;
+  color: white;
+  font-weight: bolder;
+  font-size: 10pt;
+}
+
+.linha0{
+  background-color: #BBBBBB;
+}
+
+.linha1{
+  background-color: #EEEEEE;
+}
+
+td{
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+body{
+  background-color: #CCCCCC;
+}
+
+textarea {
+    resize: none;
+    width: 300px;
+    overflow-y: scroll;
+    height: 65px;
+}
